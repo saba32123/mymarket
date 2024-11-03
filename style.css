@@ -1,0 +1,26 @@
+#mym {
+    width: 140px;
+    height: 28px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: -30px;
+    transform: translateX(4px);
+}
+.text {
+    margin-top: -60px;
+    font-family: sans-serif;
+    color: rgb(65, 64, 66);
+}
+#cont {
+    width: 180px;
+    height: 38px;
+    background-color: rgb(228, 206, 63);
+    border-radius: 15px;
+    align-content: center;
+}
+.ge {
+    transform: translateX(140px);
+    color: rgb(149, 33, 33);
+    transform: translateY(20px)
+}
