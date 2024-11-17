@@ -1,10 +1,10 @@
 #mym {
-    width: 140px;
-    height: 28px;
-    border-radius: 15px;
+    width: 130px;
+    height: 26px;
+    border-radius: 18px;
     background-color: rgb(255, 255, 255);
     text-align: center;
-    margin-top: -30px;
+    margin-top: -25px;
     transform: translateX(4px);
 }
 .text {
@@ -13,14 +13,39 @@
     color: rgb(65, 64, 66);
 }
 #cont {
-    width: 180px;
-    height: 38px;
-    background-color: rgb(228, 206, 63);
-    border-radius: 15px;
+    width: 165px;
+    height: 36px;
+    background-color: #fec900;
+    border-radius: 18px;
     align-content: center;
 }
 .ge {
-    transform: translateX(140px);
-    color: rgb(149, 33, 33);
-    transform: translateY(20px)
+    margin-left: 138px;
+    color: rgb(255, 255, 255);
+    transform: translateY(-20px);
+}
+#link-mym {
+    text-decoration: none;
+}
+#c-text {
+    color: rgb(65, 64, 66);
+    transform: translateY(-20px);
+}
+.categories {
+    width: 160px;
+    height: 34px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgba(187, 186, 186, 0.722);
+    border-radius: 12px;
+    text-align: center;
+    transform: translateX(200px);
+    margin-top: -37px;
+}
+.categories:hover {
+    background-color: rgba(227, 227, 227, 0.912);
+}
+#CD {
+    height: 20px;
+    width: 10px;
+    transform: translateY(5px);
 }
