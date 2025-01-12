@@ -59,7 +59,7 @@
     height: 40px;
     border-radius: 10px;
     background-color: rgb(254, 228, 171);
-    transform: translateX(800px);
+    transform: translateX(900px);
     margin-top: -62px;
 }
 .plus-circle {
@@ -75,3 +75,12 @@
     padding: 4px;
     font-family: sans-serif;
 }
+
+.lock:hover .icon-unlock,
+.lock .icon-lock {
+    display: none;
+}
+.lock:hover .icon-lock {
+    display: inline;
+}
+
